@@ -1,0 +1,321 @@
+@font-face {
+    font-family: "JosefinSans-Regular";
+    src: url(fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Philosopher";
+    src: url(fonts/Philosopher-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: "JosefinSans-Thin";
+    src: url(fonts/JosefinSans-Thin.ttf);
+
+}
+
+
+.mynav {
+    background-color: #222222 !important;
+    border-bottom: 2px solid #ed1c24;
+
+}
+
+.my-ul li a {
+    color: white;
+}
+
+.my-ul li a:hover {
+    color: #ed1c24;
+}
+
+
+.home-li a {
+    color: #ed1c24 !important;
+}
+
+.my-btn {
+    width: 200px;
+    background-color: #ed1c24;
+}
+
+.my-slider {
+    border-bottom: 2px solid #ed1c24 !important;
+}
+
+.welcome {
+    background-image: url(images/Untitleddesign\(36\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed;
+    background-size: cover; */
+
+}
+
+.welcome h1 {
+    font-size: 75px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    font-family: "josefinSans-Thin";
+    color: #FFFFFF;
+
+}
+
+.welcome img {
+    width: 300px;
+}
+
+.welcome p {
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+
+.welcome h3 {
+    color: #FFFFFF;
+    font-family: "Philosopher", Sans-serif;
+}
+
+.welcome span {
+    color: #FFFFFF;
+}
+
+.flx {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #ed1c24;
+}
+
+.flx1 {
+    padding: 50px 15px 50px 15px;
+    background-color: #FFFFFFE0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    margin: 20px;
+}
+
+.flx2 {
+    padding: 50px 15px 62px 15px;
+    background-color: #FFFFFFE0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    margin: 20px;
+}
+
+.flx3 {
+    padding: 50px 15px 50px 15px;
+    background-color: #FFFFFFE0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    margin: 20px;
+}
+
+.franch {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frn1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.frn2{
+    width: 400px;
+}
+.frn3 {
+    color: #ed1c24;
+    font-family: "Philosopher";
+}
+
+.frn4 {
+    color: white;
+    padding-bottom: 50px;
+}
+
+.frn4 >span{
+    text-align: center;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  
+}
+
+.loc-1 {
+    background-image: url(images/branch3.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.loc-1 i{
+    font-size: 30px;
+    color: #ed1c24;
+}
+
+.loc-2 {
+    background-image: url(images/branch2.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.loc-2 i{
+    font-size: 30px;
+    color: #ed1c24;
+}
+
+.loc-3 {
+    background-image: url(images/branch1.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+     
+}
+
+.loc-3 i{
+    font-size: 30px;
+    color: #ed1c24;
+}
+
+
+.frn6 {
+    color: #ed1c24;
+    font-family: "Philosopher";
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.frn6 h1{
+    font-size: 50px;
+
+}
+.frn6 h1{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.loc-4 {
+    background-image: url(images/3.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.loc-4 i{
+    font-size: 30px;
+    color: #ed1c24;
+}
+
+.loc-5 {
+    background-image: url(images/2.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.loc-5 i{
+    font-size: 30px;
+    color: #ed1c24;
+}
+
+.loc-6 {
+    background-image: url(images/1.png);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 10px;
+     
+}
+
+.loc-6 i{
+    font-size: 30px;
+    color: #ed1c24;
+}
+
+/* 
+@media screen and (max-width="600px"){
+    
+    .frn2{
+        width: 100%;
+
+    }
+    
+} */
